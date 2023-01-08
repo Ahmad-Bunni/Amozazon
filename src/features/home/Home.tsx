@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
-import backgroundImage from '../../assets/img/background.webp';
 import Modal from '../../common/navbar-menu/Modal';
+import Images from './HomeImages';
+import backgroundImage from '/images/background.webp';
+
 function Home() {
   const [fade, setFade] = useState(false);
   const [currentImage, setCurrentImage] = useState('');
   const [toggleModal, setToggleModal] = useState(false);
-  const images = [1, 2, 3, 4, 5, 6];
 
   const ToggleModal = (image: string) => {
     setCurrentImage(image);
@@ -43,16 +44,10 @@ function Home() {
       </div>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 sm:grid-cols-2 p-1">
-        {images.map((item) => {
+        {Images.map((item) => {
           return (
-            <button
-              key={item}
-              onClick={() => ToggleModal(`assets/img/sample${item}.jpg`)}
-            >
-              <img
-                className="object-cover w-full rounded-md"
-                src={`assets/img/sample${item}.jpg`}
-              />
+            <button key={item.id} onClick={() => ToggleModal(item.src)}>
+              <img className="object-cover w-full rounded-md" src={item.src} />
             </button>
           );
         })}

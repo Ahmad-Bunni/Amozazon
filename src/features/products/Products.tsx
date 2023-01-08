@@ -1,6 +1,6 @@
-import aegImage from '../../assets/img/aeg370.png';
-import iq7plus from '../../assets/img/iQ7plus.webp';
-import jinkoImage from '../../assets/img/jinko370.png';
+import aegImage from '/images/aeg370.png';
+import iq7plus from '/images/iQ7plus.webp';
+import jinkoImage from '/images/jinko370.png';
 
 function Products() {
   return (
