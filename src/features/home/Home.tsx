@@ -47,11 +47,11 @@ function Home() {
           return (
             <button
               key={item}
-              onClick={() => ToggleModal(`../src/assets/img/sample${item}.jpg`)}
+              onClick={() => ToggleModal(`assets/img/sample${item}.jpg`)}
             >
               <img
                 className="object-cover w-full rounded-md"
-                src={`../src/assets/img/sample${item}.jpg`}
+                src={`assets/img/sample${item}.jpg`}
               />
             </button>
           );
