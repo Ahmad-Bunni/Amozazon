@@ -4,7 +4,7 @@ import jinkoImage from '/images/jinko370.png';
 
 function Products() {
   return (
-    <div className="container mx-auto p-24 space-y-12">
+    <div className=" mt-8 md:mt-0 p-8 md:p-24 space-y-12">
       <div className="flex flex-col md:flex-row md:divide-x-2 pb-8 border-b-2 md:border-b-0 md:pb-0">
         <div className="md:flex-1 mb-4 md:mb-0">
           <div className="flex items-center justify-center">

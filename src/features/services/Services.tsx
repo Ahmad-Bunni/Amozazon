@@ -4,9 +4,9 @@ import repair from '/images/repair.jpg';
 
 function Services() {
   return (
-    <div className="container mx-auto p-24 space-y-16">
+    <div className="container mx-auto mt-8 md:mt-0 p-8 md:p-24 space-y-16">
       <div className="flex flex-col">
-        <div className="md:flex-1 mb-4">
+        <div className="md:flex-1 mb-4 md:mb-8">
           <div className="flex justify-center">
             <img className="rounded-lg" width={800} src={cleaning} />
           </div>
@@ -39,7 +39,7 @@ function Services() {
       </div>
 
       <div className="flex flex-col ">
-        <div className="md:flex-1 mb-4">
+        <div className="md:flex-1 mb-4 md:mb-8">
           <div className="flex justify-center">
             <img className="rounded-lg" width={400} src={repair} />
           </div>

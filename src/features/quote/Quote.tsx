@@ -1,6 +1,6 @@
 function Quote() {
   return (
-    <div className="container mx-auto p-24">
+    <div className="container mx-auto mt-8 md:mt-0 p-8 md:p-24">
       <div className="px-4 mx-auto max-w-screen-md">
         <h2 className="mb-6 text-4xl tracking-tight font-extrabold text-center text-emerald-800 ">
           Quote Request
