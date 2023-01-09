@@ -25,7 +25,7 @@ function Products() {
 
             <div className="flex-1">
               <p className="text-emerald-700 text-sm md:text-md">
-                This is included with all products!
+                Everything included!
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ function Products() {
 
             <div className="flex-1">
               <p className="text-emerald-700 text-sm md:text-md">
-                This is included with all products!
+                Everything included!
               </p>
             </div>
           </div>
