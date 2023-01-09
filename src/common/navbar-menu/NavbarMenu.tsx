@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '/images/logo.webp';
+import logo from '/images/logo.png';
 
 function NavbarMenu() {
   const [showMenu, setShowMenu] = useState(false);
