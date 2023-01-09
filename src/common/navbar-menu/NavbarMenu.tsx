@@ -18,7 +18,7 @@ function NavbarMenu() {
       <div className="flex flex-wrap items-center justify-between mx-auto">
         <div className="md:w-1/3">
           <NavLink to={'/'} onClick={hideMenu}>
-            <img src={logo} className="h-7 md:h-9" alt="Amozazon Logo" />
+            <img src={logo} className="h-10 md:h-14" alt="Amozazon Logo" />
           </NavLink>
         </div>
         <div className="flex md:order-2 md:w-1/3">
@@ -47,7 +47,7 @@ function NavbarMenu() {
           }`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 mt-4 border rounded-lg bg-gray-100 md:bg-white md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-semibold md:border-0">
+          <ul className="flex flex-col p-4 mt-4 border rounded-lg bg-gray-100 md:bg-white md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-semibold md:border-0">
             <li>
               <span
                 className="block py-2 pl-3 pr-4 rounded md:p-0 text-emerald-900 hover:underline hover:underline-offset-8 transition delay-200"
