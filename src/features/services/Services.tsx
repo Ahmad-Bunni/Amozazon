@@ -29,7 +29,7 @@ function Services() {
           <p className="font-semibold text-xs md:text-md lg:text-lg">
             For more information{' '}
             <NavLink
-              className="text-xs md:text-md lg:text-lg text-emerald-900 hover:underline "
+              className="text-xs md:text-md lg:text-lg  text-emerald-900 hover:text-emerald-700"
               to={'/quote'}
             >
               Request Quote
@@ -59,7 +59,7 @@ function Services() {
           <p className="font-semibold text-xs md:text-md lg:text-lg">
             For more information{' '}
             <NavLink
-              className="text-xs md:text-md lg:text-lg text-emerald-900 hover:underline "
+              className="text-xs md:text-md lg:text-lg underline text-emerald-900 hover:text-emerald-700"
               to={'/quote'}
             >
               Request Quote
