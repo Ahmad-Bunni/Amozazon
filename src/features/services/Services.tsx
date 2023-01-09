@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import cleaning from '/images/cleaning.jpg';
-import repair from '/images/repair.jpg';
+import cleaning from '/images/cleaning.webp';
+import repair from '/images/repair.webp';
 
 function Services() {
   return (
