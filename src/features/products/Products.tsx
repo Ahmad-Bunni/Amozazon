@@ -32,9 +32,13 @@ function Products() {
 
           <p className="text-gray-500">
             <ul className="space-y-4 text-sm md:text-md">
+              <li>Installation</li>
+              <li>Microinverters IQ 7+</li>
+              <li>Fuse Box</li>
+              <li>Cables</li>
+              <li>Construction</li>
               <li>20-year product warranty</li>
               <li>25-year power warranty</li>
-              <li>High efficiency</li>
               <li>
                 Integrated production lines contribute to an excellent
                 price/quality ratio
@@ -71,6 +75,11 @@ function Products() {
 
           <p className="text-gray-500">
             <ul className="space-y-4 text-sm md:text-md">
+              <li>Installation</li>
+              <li>Microinverters IQ 7+</li>
+              <li>Fuse Box</li>
+              <li>Cables</li>
+              <li>Construction</li>
               <li>Jinko is high in the Bloomberg Tier 1 list</li>
               <li>25-year product warranty</li>
               <li>30-year power warranty</li>
