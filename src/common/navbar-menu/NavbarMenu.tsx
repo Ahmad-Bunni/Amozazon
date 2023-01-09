@@ -17,7 +17,9 @@ function NavbarMenu() {
     <nav className="px-2 sm:px-4 py-2 bg-white fixed w-full top-0 left-0 border">
       <div className="flex flex-wrap items-center justify-between mx-auto">
         <div className="md:w-1/3">
-          <img src={logo} className="h-7 md:h-9" alt="Amozazon Logo" />
+          <NavLink to={'/'} onClick={hideMenu}>
+            <img src={logo} className="h-7 md:h-9" alt="Amozazon Logo" />
+          </NavLink>
         </div>
         <div className="flex md:order-2 md:w-1/3">
           <button
